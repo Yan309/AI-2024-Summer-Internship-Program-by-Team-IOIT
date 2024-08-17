@@ -1,0 +1,806 @@
+ID,TITLE,ABSTRACT,Computer Science,Physics,Mathematics,Statistics,Quantitative Biology,Quantitative Finance
+96,Graph Convolution: A High-Order and Adaptive Approach,"  In this paper, we presented a novel convolutional neural network framework
+for graph modeling, with the introduction of two new modules specially designed
+for graph-structured data: the $k$-th order convolution operator and the
+adaptive filtering module. Importantly, our framework of High-order and
+Adaptive Graph Convolutional Network (HA-GCN) is a general-purposed
+architecture that fits various applications on both node and graph centrics, as
+well as graph generative models. We conducted extensive experiments on
+demonstrating the advantages of our framework. Particularly, our HA-GCN
+outperforms the state-of-the-art models on node classification and molecule
+property prediction tasks. It also generates 32% more real molecules on the
+molecule generation task, both of which will significantly benefit real-world
+applications such as material design and drug screening.
+",1,0,0,1,0,0
+97,Learning Sparse Representations in Reinforcement Learning with Sparse Coding,"  A variety of representation learning approaches have been investigated for
+reinforcement learning; much less attention, however, has been given to
+investigating the utility of sparse coding. Outside of reinforcement learning,
+sparse coding representations have been widely used, with non-convex objectives
+that result in discriminative representations. In this work, we develop a
+supervised sparse coding objective for policy evaluation. Despite the
+non-convexity of this objective, we prove that all local minima are global
+minima, making the approach amenable to simple optimization strategies. We
+empirically show that it is key to use a supervised objective, rather than the
+more straightforward unsupervised sparse coding approach. We compare the
+learned representations to a canonical fixed sparse representation, called
+tile-coding, demonstrating that the sparse coding representation outperforms a
+wide variety of tilecoding representations.
+",1,0,0,1,0,0
+101,Memory Aware Synapses: Learning what (not) to forget,"  Humans can learn in a continuous manner. Old rarely utilized knowledge can be
+overwritten by new incoming information while important, frequently used
+knowledge is prevented from being erased. In artificial learning systems,
+lifelong learning so far has focused mainly on accumulating knowledge over
+tasks and overcoming catastrophic forgetting. In this paper, we argue that,
+given the limited model capacity and the unlimited new information to be
+learned, knowledge has to be preserved or erased selectively. Inspired by
+neuroplasticity, we propose a novel approach for lifelong learning, coined
+Memory Aware Synapses (MAS). It computes the importance of the parameters of a
+neural network in an unsupervised and online manner. Given a new sample which
+is fed to the network, MAS accumulates an importance measure for each parameter
+of the network, based on how sensitive the predicted output function is to a
+change in this parameter. When learning a new task, changes to important
+parameters can then be penalized, effectively preventing important knowledge
+related to previous tasks from being overwritten. Further, we show an
+interesting connection between a local version of our method and Hebb's
+rule,which is a model for the learning process in the brain. We test our method
+on a sequence of object recognition tasks and on the challenging problem of
+learning an embedding for predicting $<$subject, predicate, object$>$ triplets.
+We show state-of-the-art performance and, for the first time, the ability to
+adapt the importance of the parameters based on unlabeled data towards what the
+network needs (not) to forget, which may vary depending on test conditions.
+",1,0,0,1,0,0
+103,On Improving the Capacity of Solving Large-scale Wireless Network Design Problems by Genetic Algorithms,"  Over the last decade, wireless networks have experienced an impressive growth
+and now play a main role in many telecommunications systems. As a consequence,
+scarce radio resources, such as frequencies, became congested and the need for
+effective and efficient assignment methods arose. In this work, we present a
+Genetic Algorithm for solving large instances of the Power, Frequency and
+Modulation Assignment Problem, arising in the design of wireless networks. To
+our best knowledge, this is the first Genetic Algorithm that is proposed for
+such problem. Compared to previous works, our approach allows a wider
+exploration of the set of power solutions, while eliminating sources of
+numerical problems. The performance of the algorithm is assessed by tests over
+a set of large realistic instances of a Fixed WiMAX Network.
+",1,0,1,0,0,0
+110,Monte Carlo Tree Search with Sampled Information Relaxation Dual Bounds,"  Monte Carlo Tree Search (MCTS), most famously used in game-play artificial
+intelligence (e.g., the game of Go), is a well-known strategy for constructing
+approximate solutions to sequential decision problems. Its primary innovation
+is the use of a heuristic, known as a default policy, to obtain Monte Carlo
+estimates of downstream values for states in a decision tree. This information
+is used to iteratively expand the tree towards regions of states and actions
+that an optimal policy might visit. However, to guarantee convergence to the
+optimal action, MCTS requires the entire tree to be expanded asymptotically. In
+this paper, we propose a new technique called Primal-Dual MCTS that utilizes
+sampled information relaxation upper bounds on potential actions, creating the
+possibility of ""ignoring"" parts of the tree that stem from highly suboptimal
+choices. This allows us to prove that despite converging to a partial decision
+tree in the limit, the recommended action from Primal-Dual MCTS is optimal. The
+new approach shows significant promise when used to optimize the behavior of a
+single driver navigating a graph while operating on a ride-sharing platform.
+Numerical experiments on a real dataset of 7,000 trips in New Jersey suggest
+that Primal-Dual MCTS improves upon standard MCTS by producing deeper decision
+trees and exhibits a reduced sensitivity to the size of the action space.
+",1,0,1,0,0,0
+112,"Towards ""AlphaChem"": Chemical Synthesis Planning with Tree Search and Deep Neural Network Policies","  Retrosynthesis is a technique to plan the chemical synthesis of organic
+molecules, for example drugs, agro- and fine chemicals. In retrosynthesis, a
+search tree is built by analysing molecules recursively and dissecting them
+into simpler molecular building blocks until one obtains a set of known
+building blocks. The search space is intractably large, and it is difficult to
+determine the value of retrosynthetic positions. Here, we propose to model
+retrosynthesis as a Markov Decision Process. In combination with a Deep Neural
+Network policy learned from essentially the complete published knowledge of
+chemistry, Monte Carlo Tree Search (MCTS) can be used to evaluate positions. In
+exploratory studies, we demonstrate that MCTS with neural network policies
+outperforms the traditionally used best-first search with hand-coded
+heuristics.
+",1,1,0,0,0,0
+117,Optic Disc and Cup Segmentation Methods for Glaucoma Detection with Modification of U-Net Convolutional Neural Network,"  Glaucoma is the second leading cause of blindness all over the world, with
+approximately 60 million cases reported worldwide in 2010. If undiagnosed in
+time, glaucoma causes irreversible damage to the optic nerve leading to
+blindness. The optic nerve head examination, which involves measurement of
+cup-to-disc ratio, is considered one of the most valuable methods of structural
+diagnosis of the disease. Estimation of cup-to-disc ratio requires segmentation
+of optic disc and optic cup on eye fundus images and can be performed by modern
+computer vision algorithms. This work presents universal approach for automatic
+optic disc and cup segmentation, which is based on deep learning, namely,
+modification of U-Net convolutional neural network. Our experiments include
+comparison with the best known methods on publicly available databases
+DRIONS-DB, RIM-ONE v.3, DRISHTI-GS. For both optic disc and cup segmentation,
+our method achieves quality comparable to current state-of-the-art methods,
+outperforming them in terms of the prediction time.
+",1,0,0,1,0,0
+118,"Automatic Analysis, Decomposition and Parallel Optimization of Large Homogeneous Networks","  The life of the modern world essentially depends on the work of the large
+artificial homogeneous networks, such as wired and wireless communication
+systems, networks of roads and pipelines. The support of their effective
+continuous functioning requires automatic screening and permanent optimization
+with processing of the huge amount of data by high-performance distributed
+systems. We propose new meta-algorithm of large homogeneous network analysis,
+its decomposition into alternative sets of loosely connected subnets, and
+parallel optimization of the most independent elements. This algorithm is based
+on a network-specific correlation function, Simulated Annealing technique, and
+is adapted to work in the computer cluster. On the example of large wireless
+network, we show that proposed algorithm essentially increases speed of
+parallel optimization. The elaborated general approach can be used for analysis
+and optimization of the wide range of networks, including such specific types
+as artificial neural networks or organized in networks physiological systems of
+living organisms.
+",1,0,1,0,0,0
+119,Robust Contextual Bandit via the Capped-$\ell_{2}$ norm,"  This paper considers the actor-critic contextual bandit for the mobile health
+(mHealth) intervention. The state-of-the-art decision-making methods in mHealth
+generally assume that the noise in the dynamic system follows the Gaussian
+distribution. Those methods use the least-square-based algorithm to estimate
+the expected reward, which is prone to the existence of outliers. To deal with
+the issue of outliers, we propose a novel robust actor-critic contextual bandit
+method for the mHealth intervention. In the critic updating, the
+capped-$\ell_{2}$ norm is used to measure the approximation error, which
+prevents outliers from dominating our objective. A set of weights could be
+achieved from the critic updating. Considering them gives a weighted objective
+for the actor updating. It provides the badly noised sample in the critic
+updating with zero weights for the actor updating. As a result, the robustness
+of both actor-critic updating is enhanced. There is a key parameter in the
+capped-$\ell_{2}$ norm. We provide a reliable method to properly set it by
+making use of one of the most fundamental definitions of outliers in
+statistics. Extensive experiment results demonstrate that our method can
+achieve almost identical results compared with the state-of-the-art methods on
+the dataset without outliers and dramatically outperform them on the datasets
+noised by outliers.
+",1,0,0,1,0,0
+176,A New Family of Near-metrics for Universal Similarity,"  We propose a family of near-metrics based on local graph diffusion to capture
+similarity for a wide class of data sets. These quasi-metametrics, as their
+names suggest, dispense with one or two standard axioms of metric spaces,
+specifically distinguishability and symmetry, so that similarity between data
+points of arbitrary type and form could be measured broadly and effectively.
+The proposed near-metric family includes the forward k-step diffusion and its
+reverse, typically on the graph consisting of data objects and their features.
+By construction, this family of near-metrics is particularly appropriate for
+categorical data, continuous data, and vector representations of images and
+text extracted via deep learning approaches. We conduct extensive experiments
+to evaluate the performance of this family of similarity measures and compare
+and contrast with traditional measures of similarity used for each specific
+application and with the ground truth when available. We show that for
+structured data including categorical and continuous data, the near-metrics
+corresponding to normalized forward k-step diffusion (k small) work as one of
+the best performing similarity measures; for vector representations of text and
+images including those extracted from deep learning, the near-metrics derived
+from normalized and reverse k-step graph diffusion (k very small) exhibit
+outstanding ability to distinguish data points from different classes.
+",1,0,0,1,0,0
+179,"Neural system identification for large populations separating ""what"" and ""where""","  Neuroscientists classify neurons into different types that perform similar
+computations at different locations in the visual field. Traditional methods
+for neural system identification do not capitalize on this separation of 'what'
+and 'where'. Learning deep convolutional feature spaces that are shared among
+many neurons provides an exciting path forward, but the architectural design
+needs to account for data limitations: While new experimental techniques enable
+recordings from thousands of neurons, experimental time is limited so that one
+can sample only a small fraction of each neuron's response space. Here, we show
+that a major bottleneck for fitting convolutional neural networks (CNNs) to
+neural data is the estimation of the individual receptive field locations, a
+problem that has been scratched only at the surface thus far. We propose a CNN
+architecture with a sparse readout layer factorizing the spatial (where) and
+feature (what) dimensions. Our network scales well to thousands of neurons and
+short recordings and can be trained end-to-end. We evaluate this architecture
+on ground-truth data to explore the challenges and limitations of CNN-based
+system identification. Moreover, we show that our network model outperforms
+current state-of-the art system identification models of mouse primary visual
+cortex.
+",1,0,0,1,0,0
+186,Minimum energy path calculations with Gaussian process regression,"  The calculation of minimum energy paths for transitions such as atomic and/or
+spin re-arrangements is an important task in many contexts and can often be
+used to determine the mechanism and rate of transitions. An important challenge
+is to reduce the computational effort in such calculations, especially when ab
+initio or electron density functional calculations are used to evaluate the
+energy since they can require large computational effort. Gaussian process
+regression is used here to reduce significantly the number of energy
+evaluations needed to find minimum energy paths of atomic rearrangements. By
+using results of previous calculations to construct an approximate energy
+surface and then converge to the minimum energy path on that surface in each
+Gaussian process iteration, the number of energy evaluations is reduced
+significantly as compared with regular nudged elastic band calculations. For a
+test problem involving rearrangements of a heptamer island on a crystal
+surface, the number of energy evaluations is reduced to less than a fifth. The
+scaling of the computational effort with the number of degrees of freedom as
+well as various possible further improvements to this approach are discussed.
+",0,1,0,1,0,0
+193,Learning from Between-class Examples for Deep Sound Recognition,"  Deep learning methods have achieved high performance in sound recognition
+tasks. Deciding how to feed the training data is important for further
+performance improvement. We propose a novel learning method for deep sound
+recognition: Between-Class learning (BC learning). Our strategy is to learn a
+discriminative feature space by recognizing the between-class sounds as
+between-class sounds. We generate between-class sounds by mixing two sounds
+belonging to different classes with a random ratio. We then input the mixed
+sound to the model and train the model to output the mixing ratio. The
+advantages of BC learning are not limited only to the increase in variation of
+the training data; BC learning leads to an enlargement of Fisher's criterion in
+the feature space and a regularization of the positional relationship among the
+feature distributions of the classes. The experimental results show that BC
+learning improves the performance on various sound recognition networks,
+datasets, and data augmentation schemes, in which BC learning proves to be
+always beneficial. Furthermore, we construct a new deep sound recognition
+network (EnvNet-v2) and train it with BC learning. As a result, we achieved a
+performance surpasses the human level.
+",1,0,0,1,0,0
+194,DAGGER: A sequential algorithm for FDR control on DAGs,"  We propose a linear-time, single-pass, top-down algorithm for multiple
+testing on directed acyclic graphs (DAGs), where nodes represent hypotheses and
+edges specify a partial ordering in which hypotheses must be tested. The
+procedure is guaranteed to reject a sub-DAG with bounded false discovery rate
+(FDR) while satisfying the logical constraint that a rejected node's parents
+must also be rejected. It is designed for sequential testing settings, when the
+DAG structure is known a priori, but the $p$-values are obtained selectively
+(such as in a sequence of experiments), but the algorithm is also applicable in
+non-sequential settings when all $p$-values can be calculated in advance (such
+as variable/model selection). Our DAGGER algorithm, shorthand for Greedily
+Evolving Rejections on DAGs, provably controls the false discovery rate under
+independence, positive dependence or arbitrary dependence of the $p$-values.
+The DAGGER procedure specializes to known algorithms in the special cases of
+trees and line graphs, and simplifies to the classical Benjamini-Hochberg
+procedure when the DAG has no edges. We explore the empirical performance of
+DAGGER using simulations, as well as a real dataset corresponding to a gene
+ontology, showing favorable performance in terms of time and power.
+",0,0,1,1,0,0
+197,Epidemic Spreading and Aging in Temporal Networks with Memory,"  Time-varying network topologies can deeply influence dynamical processes
+mediated by them. Memory effects in the pattern of interactions among
+individuals are also known to affect how diffusive and spreading phenomena take
+place. In this paper we analyze the combined effect of these two ingredients on
+epidemic dynamics on networks. We study the susceptible-infected-susceptible
+(SIS) and the susceptible-infected-removed (SIR) models on the recently
+introduced activity-driven networks with memory. By means of an activity-based
+mean-field approach we derive, in the long time limit, analytical predictions
+for the epidemic threshold as a function of the parameters describing the
+distribution of activities and the strength of the memory effects. Our results
+show that memory reduces the threshold, which is the same for SIS and SIR
+dynamics, therefore favouring epidemic spreading. The theoretical approach
+perfectly agrees with numerical simulations in the long time asymptotic regime.
+Strong aging effects are present in the preasymptotic regime and the epidemic
+threshold is deeply affected by the starting time of the epidemics. We discuss
+in detail the origin of the model-dependent preasymptotic corrections, whose
+understanding could potentially allow for epidemic control on correlated
+temporal networks.
+",1,0,0,0,1,0
+198,"The Shattered Gradients Problem: If resnets are the answer, then what is the question?","  A long-standing obstacle to progress in deep learning is the problem of
+vanishing and exploding gradients. Although, the problem has largely been
+overcome via carefully constructed initializations and batch normalization,
+architectures incorporating skip-connections such as highway and resnets
+perform much better than standard feedforward architectures despite well-chosen
+initialization and batch normalization. In this paper, we identify the
+shattered gradients problem. Specifically, we show that the correlation between
+gradients in standard feedforward networks decays exponentially with depth
+resulting in gradients that resemble white noise whereas, in contrast, the
+gradients in architectures with skip-connections are far more resistant to
+shattering, decaying sublinearly. Detailed empirical evidence is presented in
+support of the analysis, on both fully-connected networks and convnets.
+Finally, we present a new ""looks linear"" (LL) initialization that prevents
+shattering, with preliminary experiments showing the new initialization allows
+to train very deep networks without the addition of skip-connections.
+",1,0,0,1,0,0
+204,Chain effects of clean water: The Mills-Reincke phenomenon in early twentieth-century Japan,"  This study explores the validity of chain effects of clean water, which are
+known as the ""Mills-Reincke phenomenon,"" in early twentieth-century Japan.
+Recent studies have reported that water purifications systems are responsible
+for huge contributions to human capital. Although a few studies have
+investigated the short-term effects of water-supply systems in pre-war Japan,
+little is known about the benefits associated with these systems. By analyzing
+city-level cause-specific mortality data from the years 1922-1940, we found
+that eliminating typhoid fever infections decreased the risk of deaths due to
+non-waterborne diseases. Our estimates show that for one additional typhoid
+death, there were approximately one to three deaths due to other causes, such
+as tuberculosis and pneumonia. This suggests that the observed Mills-Reincke
+phenomenon could have resulted from the prevention typhoid fever in a
+previously-developing Asian country.
+",0,0,0,1,1,0
+915,Riemannian stochastic variance reduced gradient,"  Stochastic variance reduction algorithms have recently become popular for
+minimizing the average of a large but finite number of loss functions. In this
+paper, we propose a novel Riemannian extension of the Euclidean stochastic
+variance reduced gradient algorithm (R-SVRG) to a manifold search space. The
+key challenges of averaging, adding, and subtracting multiple gradients are
+addressed with retraction and vector transport. We present a global convergence
+analysis of the proposed algorithm with a decay step size and a local
+convergence rate analysis under a fixed step size under some natural
+assumptions. The proposed algorithm is applied to problems on the Grassmann
+manifold, such as principal component analysis, low-rank matrix completion, and
+computation of the Karcher mean of subspaces, and outperforms the standard
+Riemannian stochastic gradient descent algorithm in each case.
+",1,0,1,1,0,0
+1015,Hidden Community Detection in Social Networks,"  We introduce a new paradigm that is important for community detection in the
+realm of network analysis. Networks contain a set of strong, dominant
+communities, which interfere with the detection of weak, natural community
+structure. When most of the members of the weak communities also belong to
+stronger communities, they are extremely hard to be uncovered. We call the weak
+communities the hidden community structure.
+We present a novel approach called HICODE (HIdden COmmunity DEtection) that
+identifies the hidden community structure as well as the dominant community
+structure. By weakening the strength of the dominant structure, one can uncover
+the hidden structure beneath. Likewise, by reducing the strength of the hidden
+structure, one can more accurately identify the dominant structure. In this
+way, HICODE tackles both tasks simultaneously.
+Extensive experiments on real-world networks demonstrate that HICODE
+outperforms several state-of-the-art community detection methods in uncovering
+both the dominant and the hidden structure. In the Facebook university social
+networks, we find multiple non-redundant sets of communities that are strongly
+associated with residential hall, year of registration or career position of
+the faculties or students, while the state-of-the-art algorithms mainly locate
+the dominant ground truth category. In the Due to the difficulty of labeling
+all ground truth communities in real-world datasets, HICODE provides a
+promising approach to pinpoint the existing latent communities and uncover
+communities for which there is no ground truth. Finding this unknown structure
+is an extremely important community detection problem.
+",1,1,0,1,0,0
+1100,Stochastic Variance Reduction Methods for Policy Evaluation,"  Policy evaluation is a crucial step in many reinforcement-learning
+procedures, which estimates a value function that predicts states' long-term
+value under a given policy. In this paper, we focus on policy evaluation with
+linear function approximation over a fixed dataset. We first transform the
+empirical policy evaluation problem into a (quadratic) convex-concave saddle
+point problem, and then present a primal-dual batch gradient method, as well as
+two stochastic variance reduction methods for solving the problem. These
+algorithms scale linearly in both sample size and feature dimension. Moreover,
+they achieve linear convergence even when the saddle-point problem has only
+strong concavity in the dual variables but no strong convexity in the primal
+variables. Numerical experiments on benchmark problems demonstrate the
+effectiveness of our methods.
+",1,0,1,1,0,0
+1222,An Army of Me: Sockpuppets in Online Discussion Communities,"  In online discussion communities, users can interact and share information
+and opinions on a wide variety of topics. However, some users may create
+multiple identities, or sockpuppets, and engage in undesired behavior by
+deceiving others or manipulating discussions. In this work, we study
+sockpuppetry across nine discussion communities, and show that sockpuppets
+differ from ordinary users in terms of their posting behavior, linguistic
+traits, as well as social network structure. Sockpuppets tend to start fewer
+discussions, write shorter posts, use more personal pronouns such as ""I"", and
+have more clustered ego-networks. Further, pairs of sockpuppets controlled by
+the same individual are more likely to interact on the same discussion at the
+same time than pairs of ordinary users. Our analysis suggests a taxonomy of
+deceptive behavior in discussion communities. Pairs of sockpuppets can vary in
+their deceptiveness, i.e., whether they pretend to be different users, or their
+supportiveness, i.e., if they support arguments of other sockpuppets controlled
+by the same user. We apply these findings to a series of prediction tasks,
+notably, to identify whether a pair of accounts belongs to the same underlying
+user or not. Altogether, this work presents a data-driven view of deception in
+online discussion communities and paves the way towards the automatic detection
+of sockpuppets.
+",1,1,0,1,0,0
+1226,Generalization Bounds of SGLD for Non-convex Learning: Two Theoretical Viewpoints,"  Algorithm-dependent generalization error bounds are central to statistical
+learning theory. A learning algorithm may use a large hypothesis space, but the
+limited number of iterations controls its model capacity and generalization
+error. The impacts of stochastic gradient methods on generalization error for
+non-convex learning problems not only have important theoretical consequences,
+but are also critical to generalization errors of deep learning.
+In this paper, we study the generalization errors of Stochastic Gradient
+Langevin Dynamics (SGLD) with non-convex objectives. Two theories are proposed
+with non-asymptotic discrete-time analysis, using Stability and PAC-Bayesian
+results respectively. The stability-based theory obtains a bound of
+$O\left(\frac{1}{n}L\sqrt{\beta T_k}\right)$, where $L$ is uniform Lipschitz
+parameter, $\beta$ is inverse temperature, and $T_k$ is aggregated step sizes.
+For PAC-Bayesian theory, though the bound has a slower $O(1/\sqrt{n})$ rate,
+the contribution of each step is shown with an exponentially decaying factor by
+imposing $\ell^2$ regularization, and the uniform Lipschitz constant is also
+replaced by actual norms of gradients along trajectory. Our bounds have no
+implicit dependence on dimensions, norms or other capacity measures of
+parameter, which elegantly characterizes the phenomenon of ""Fast Training
+Guarantees Generalization"" in non-convex settings. This is the first
+algorithm-dependent result with reasonable dependence on aggregated step sizes
+for non-convex learning, and has important implications to statistical learning
+aspects of stochastic gradient methods in complicated models such as deep
+learning.
+",1,0,1,1,0,0
+1283,Arimoto-Rényi Conditional Entropy and Bayesian $M$-ary Hypothesis Testing,"  This paper gives upper and lower bounds on the minimum error probability of
+Bayesian $M$-ary hypothesis testing in terms of the Arimoto-Rényi conditional
+entropy of an arbitrary order $\alpha$. The improved tightness of these bounds
+over their specialized versions with the Shannon conditional entropy
+($\alpha=1$) is demonstrated. In particular, in the case where $M$ is finite,
+we show how to generalize Fano's inequality under both the conventional and
+list-decision settings. As a counterpart to the generalized Fano's inequality,
+allowing $M$ to be infinite, a lower bound on the Arimoto-Rényi conditional
+entropy is derived as a function of the minimum error probability. Explicit
+upper and lower bounds on the minimum error probability are obtained as a
+function of the Arimoto-Rényi conditional entropy for both positive and
+negative $\alpha$. Furthermore, we give upper bounds on the minimum error
+probability as functions of the Rényi divergence. In the setup of discrete
+memoryless channels, we analyze the exponentially vanishing decay of the
+Arimoto-Rényi conditional entropy of the transmitted codeword given the
+channel output when averaged over a random coding ensemble.
+",1,0,1,1,0,0
+1321,Time-lagged autoencoders: Deep learning of slow collective variables for molecular kinetics,"  Inspired by the success of deep learning techniques in the physical and
+chemical sciences, we apply a modification of an autoencoder type deep neural
+network to the task of dimension reduction of molecular dynamics data. We can
+show that our time-lagged autoencoder reliably finds low-dimensional embeddings
+for high-dimensional feature spaces which capture the slow dynamics of the
+underlying stochastic processes - beyond the capabilities of linear dimension
+reduction techniques.
+",1,1,0,1,0,0
+20921,Application of Decision Rules for Handling Class Imbalance in Semantic Segmentation,"  As part of autonomous car driving systems, semantic segmentation is an
+essential component to obtain a full understanding of the car's environment.
+One difficulty, that occurs while training neural networks for this purpose, is
+class imbalance of training data. Consequently, a neural network trained on
+unbalanced data in combination with maximum a-posteriori classification may
+easily ignore classes that are rare in terms of their frequency in the dataset.
+However, these classes are often of highest interest. We approach such
+potential misclassifications by weighting the posterior class probabilities
+with the prior class probabilities which in our case are the inverse
+frequencies of the corresponding classes in the training dataset. More
+precisely, we adopt a localized method by computing the priors pixel-wise such
+that the impact can be analyzed at pixel level as well. In our experiments, we
+train one network from scratch using a proprietary dataset containing 20,000
+annotated frames of video sequences recorded from street scenes. The evaluation
+on our test set shows an increase of average recall with regard to instances of
+pedestrians and info signs by $25\%$ and $23.4\%$, respectively. In addition,
+we significantly reduce the non-detection rate for instances of the same
+classes by $61\%$ and $38\%$.
+",1,0,0,1,0,0
+20925,Towards Physically Safe Reinforcement Learning under Supervision,"  This paper addresses the question of how a previously available control
+policy $\pi_s$ can be used as a supervisor to more quickly and safely train a
+new learned control policy $\pi_L$ for a robot. A weighted average of the
+supervisor and learned policies is used during trials, with a heavier weight
+initially on the supervisor, in order to allow safe and useful physical trials
+while the learned policy is still ineffective. During the process, the weight
+is adjusted to favor the learned policy. As weights are adjusted, the learned
+network must compensate so as to give safe and reasonable outputs under the
+different weights. A pioneer network is introduced that pre-learns a policy
+that performs similarly to the current learned policy under the planned next
+step for new weights; this pioneer network then replaces the currently learned
+network in the next set of trials. Experiments in OpenAI Gym demonstrate the
+effectiveness of the proposed method.
+",1,0,0,1,0,0
+20931,Sparsity-promoting and edge-preserving maximum a posteriori estimators in non-parametric Bayesian inverse problems,"  We consider the inverse problem of recovering an unknown functional parameter
+$u$ in a separable Banach space, from a noisy observation $y$ of its image
+through a known possibly non-linear ill-posed map ${\mathcal G}$. The data $y$
+is finite-dimensional and the noise is Gaussian. We adopt a Bayesian approach
+to the problem and consider Besov space priors (see Lassas et al. 2009), which
+are well-known for their edge-preserving and sparsity-promoting properties and
+have recently attracted wide attention especially in the medical imaging
+community.
+Our key result is to show that in this non-parametric setup the maximum a
+posteriori (MAP) estimates are characterized by the minimizers of a generalized
+Onsager--Machlup functional of the posterior. This is done independently for
+the so-called weak and strong MAP estimates, which as we show coincide in our
+context. In addition, we prove a form of weak consistency for the MAP
+estimators in the infinitely informative data limit. Our results are remarkable
+for two reasons: first, the prior distribution is non-Gaussian and does not
+meet the smoothness conditions required in previous research on non-parametric
+MAP estimates. Second, the result analytically justifies existing uses of the
+MAP estimate in finite but high dimensional discretizations of Bayesian inverse
+problems with the considered Besov priors.
+",0,0,1,1,0,0
+20938,Predicting Demographics of High-Resolution Geographies with Geotagged Tweets,"  In this paper, we consider the problem of predicting demographics of
+geographic units given geotagged Tweets that are composed within these units.
+Traditional survey methods that offer demographics estimates are usually
+limited in terms of geographic resolution, geographic boundaries, and time
+intervals. Thus, it would be highly useful to develop computational methods
+that can complement traditional survey methods by offering demographics
+estimates at finer geographic resolutions, with flexible geographic boundaries
+(i.e. not confined to administrative boundaries), and at different time
+intervals. While prior work has focused on predicting demographics and health
+statistics at relatively coarse geographic resolutions such as the county-level
+or state-level, we introduce an approach to predict demographics at finer
+geographic resolutions such as the blockgroup-level. For the task of predicting
+gender and race/ethnicity counts at the blockgroup-level, an approach adapted
+from prior work to our problem achieves an average correlation of 0.389
+(gender) and 0.569 (race) on a held-out test dataset. Our approach outperforms
+this prior approach with an average correlation of 0.671 (gender) and 0.692
+(race).
+",1,0,0,1,0,0
+20939,Text Compression for Sentiment Analysis via Evolutionary Algorithms,"  Can textual data be compressed intelligently without losing accuracy in
+evaluating sentiment? In this study, we propose a novel evolutionary
+compression algorithm, PARSEC (PARts-of-Speech for sEntiment Compression),
+which makes use of Parts-of-Speech tags to compress text in a way that
+sacrifices minimal classification accuracy when used in conjunction with
+sentiment analysis algorithms. An analysis of PARSEC with eight commercial and
+non-commercial sentiment analysis algorithms on twelve English sentiment data
+sets reveals that accurate compression is possible with (0%, 1.3%, 3.3%) loss
+in sentiment classification accuracy for (20%, 50%, 75%) data compression with
+PARSEC using LingPipe, the most accurate of the sentiment algorithms. Other
+sentiment analysis algorithms are more severely affected by compression. We
+conclude that significant compression of text data is possible for sentiment
+analysis depending on the accuracy demands of the specific application and the
+specific sentiment analysis algorithm used.
+",1,0,0,1,0,0
+20940,Training large margin host-pathogen protein-protein interaction predictors,"  Detection of protein-protein interactions (PPIs) plays a vital role in
+molecular biology. Particularly, infections are caused by the interactions of
+host and pathogen proteins. It is important to identify host-pathogen
+interactions (HPIs) to discover new drugs to counter infectious diseases.
+Conventional wet lab PPI prediction techniques have limitations in terms of
+large scale application and budget. Hence, computational approaches are
+developed to predict PPIs. This study aims to develop large margin machine
+learning models to predict interspecies PPIs with a special interest in
+host-pathogen protein interactions (HPIs). Especially, we focus on seeking
+answers to three queries that arise while developing an HPI predictor. 1) How
+should we select negative samples? 2) What should be the size of negative
+samples as compared to the positive samples? 3) What type of margin violation
+penalty should be used to train the predictor? We compare two available methods
+for negative sampling. Moreover, we propose a new method of assigning weights
+to each training example in weighted SVM depending on the distance of the
+negative examples from the positive examples. We have also developed a web
+server for our HPI predictor called HoPItor (Host Pathogen Interaction
+predicTOR) that can predict interactions between human and viral proteins. This
+webserver can be accessed at the URL:
+this http URL.
+",1,0,0,1,0,0
+20943,Contextual Outlier Interpretation,"  Outlier detection plays an essential role in many data-driven applications to
+identify isolated instances that are different from the majority. While many
+statistical learning and data mining techniques have been used for developing
+more effective outlier detection algorithms, the interpretation of detected
+outliers does not receive much attention. Interpretation is becoming
+increasingly important to help people trust and evaluate the developed models
+through providing intrinsic reasons why the certain outliers are chosen. It is
+difficult, if not impossible, to simply apply feature selection for explaining
+outliers due to the distinct characteristics of various detection models,
+complicated structures of data in certain applications, and imbalanced
+distribution of outliers and normal instances. In addition, the role of
+contrastive contexts where outliers locate, as well as the relation between
+outliers and contexts, are usually overlooked in interpretation. To tackle the
+issues above, in this paper, we propose a novel Contextual Outlier
+INterpretation (COIN) method to explain the abnormality of existing outliers
+spotted by detectors. The interpretability for an outlier is achieved from
+three aspects: outlierness score, attributes that contribute to the
+abnormality, and contextual description of its neighborhoods. Experimental
+results on various types of datasets demonstrate the flexibility and
+effectiveness of the proposed framework compared with existing interpretation
+approaches.
+",1,0,0,1,0,0
+20947,Robust Distributed Control of DC Microgrids with Time-Varying Power Sharing,"  This paper addresses the problem of output voltage regulation for multiple
+DC/DC converters connected to a microgrid, and prescribes a scheme for sharing
+power among different sources. This architecture is structured in such a way
+that it admits quantifiable analysis of the closed-loop performance of the
+network of converters; the analysis simplifies to studying closed-loop
+performance of an equivalent {\em single-converter} system. The proposed
+architecture allows for the proportion in which the sources provide power to
+vary with time; thus overcoming limitations of our previous designs.
+Additionally, the proposed control framework is suitable to both centralized
+and decentralized implementations, i.e., the same control architecture can be
+employed for voltage regulation irrespective of the availability of common
+load-current (or power) measurement, without the need to modify controller
+parameters. The performance becomes quantifiably better with better
+communication of the demanded load to all the controllers at all the converters
+(in the centralized case); however guarantees viability when such communication
+is absent. Case studies comprising of battery, PV and generic sources are
+presented and demonstrate the enhanced performance of prescribed optimal
+controllers for voltage regulation and power sharing.
+",1,0,1,0,0,0
+20949,A Parallel Direct Cut Algorithm for High-Order Overset Methods with Application to a Spinning Golf Ball,"  Overset methods are commonly employed to enable the effective simulation of
+problems involving complex geometries and moving objects such as rotorcraft.
+This paper presents a novel overset domain connectivity algorithm based upon
+the direct cut approach suitable for use with GPU-accelerated solvers on
+high-order curved grids. In contrast to previous methods it is capable of
+exploiting the highly data-parallel nature of modern accelerators. Further, the
+approach is also substantially more efficient at handling the curved grids
+which arise within the context of high-order methods. An implementation of this
+new algorithm is presented and combined with a high-order fluid dynamics code.
+The algorithm is validated against several benchmark problems, including flow
+over a spinning golf ball at a Reynolds number of 150,000.
+",0,1,0,0,0,0
+20950,A data assimilation algorithm: the paradigm of the 3D Leray-alpha model of turbulence,"  In this paper we survey the various implementations of a new data
+assimilation (downscaling) algorithm based on spatial coarse mesh measurements.
+As a paradigm, we demonstrate the application of this algorithm to the 3D
+Leray-$\alpha$ subgrid scale turbulence model. Most importantly, we use this
+paradigm to show that it is not always necessary that one has to collect coarse
+mesh measurements of all the state variables, that are involved in the
+underlying evolutionary system, in order to recover the corresponding exact
+reference solution. Specifically, we show that in the case of the 3D
+Leray$-\alpha$ model of turbulence the solutions of the algorithm, constructed
+using only coarse mesh observations of any two components of the
+three-dimensional velocity field, and without any information of the third
+component, converge, at an exponential rate in time, to the corresponding exact
+reference solution of the 3D Leray$-\alpha$ model. This study serves as an
+addendum to our recent work on abridged continuous data assimilation for the 2D
+Navier-Stokes equations. Notably, similar results have also been recently
+established for the 3D viscous Planetary Geostrophic circulation model in which
+we show that coarse mesh measurements of the temperature alone are sufficient
+for recovering, through our data assimilation algorithm, the full solution;
+viz. the three components of velocity vector field and the temperature.
+Consequently, this proves the Charney conjecture for the 3D Planetary
+Geostrophic model; namely, that the history of the large spatial scales of
+temperature is sufficient for determining all the other quantities (state
+variables) of the model.
+",0,1,1,0,0,0
+20951,Playing a true Parrondo's game with a three state coin on a quantum walk,"  Playing a Parrondo's game with a qutrit is the subject of this paper. We show
+that a true quantum Parrondo's game can be played with a 3 state coin(qutrit)
+in a 1D quantum walk in contrast to the fact that playing a true Parrondo's
+game with a 2 state coin(qubit) in 1D quantum walk fails in the asymptotic
+limits.
+",1,1,0,0,0,0
+20952,Cross-modal Recurrent Models for Weight Objective Prediction from Multimodal Time-series Data,"  We analyse multimodal time-series data corresponding to weight, sleep and
+steps measurements. We focus on predicting whether a user will successfully
+achieve his/her weight objective. For this, we design several deep long
+short-term memory (LSTM) architectures, including a novel cross-modal LSTM
+(X-LSTM), and demonstrate their superiority over baseline approaches. The
+X-LSTM improves parameter efficiency by processing each modality separately and
+allowing for information flow between them by way of recurrent
+cross-connections. We present a general hyperparameter optimisation technique
+for X-LSTMs, which allows us to significantly improve on the LSTM and a prior
+state-of-the-art cross-modal approach, using a comparable number of parameters.
+Finally, we visualise the model's predictions, revealing implications about
+latent variables in this task.
+",1,0,0,1,0,0
+20953,Spatial Variational Auto-Encoding via Matrix-Variate Normal Distributions,"  The key idea of variational auto-encoders (VAEs) resembles that of
+traditional auto-encoder models in which spatial information is supposed to be
+explicitly encoded in the latent space. However, the latent variables in VAEs
+are vectors, which can be interpreted as multiple feature maps of size 1x1.
+Such representations can only convey spatial information implicitly when
+coupled with powerful decoders. In this work, we propose spatial VAEs that use
+feature maps of larger size as latent variables to explicitly capture spatial
+information. This is achieved by allowing the latent variables to be sampled
+from matrix-variate normal (MVN) distributions whose parameters are computed
+from the encoder network. To increase dependencies among locations on latent
+feature maps and reduce the number of parameters, we further propose spatial
+VAEs via low-rank MVN distributions. Experimental results show that the
+proposed spatial VAEs outperform original VAEs in capturing rich structural and
+spatial information.
+",1,0,0,1,0,0
+20954,Optimal Ramp Schemes and Related Combinatorial Objects,"  In 1996, Jackson and Martin proved that a strong ideal ramp scheme is
+equivalent to an orthogonal array. However, there was no good characterization
+of ideal ramp schemes that are not strong. Here we show the equivalence of
+ideal ramp schemes to a new variant of orthogonal arrays that we term augmented
+orthogonal arrays. We give some constructions for these new kinds of arrays,
+and, as a consequence, we also provide parameter situations where ideal ramp
+schemes exist but strong ideal ramp schemes do not exist.
+",1,0,0,0,0,0
+20955,Do Neural Nets Learn Statistical Laws behind Natural Language?,"  The performance of deep learning in natural language processing has been
+spectacular, but the reasons for this success remain unclear because of the
+inherent complexity of deep learning. This paper provides empirical evidence of
+its effectiveness and of a limitation of neural networks for language
+engineering. Precisely, we demonstrate that a neural language model based on
+long short-term memory (LSTM) effectively reproduces Zipf's law and Heaps' law,
+two representative statistical properties underlying natural language. We
+discuss the quality of reproducibility and the emergence of Zipf's law and
+Heaps' law as training progresses. We also point out that the neural language
+model has a limitation in reproducing long-range correlation, another
+statistical property of natural language. This understanding could provide a
+direction for improving the architectures of neural networks.
+",1,0,0,0,0,0
+20956,Super-speeds with Zero-RAM: Next Generation Large-Scale Optimization in Your Laptop!,"  This article presents the novel breakthrough general purpose algorithm for
+large scale optimization problems. The novel algorithm is capable of achieving
+breakthrough speeds for very large-scale optimization on general purpose
+laptops and embedded systems. Application of the algorithm to the Griewank
+function was possible in up to 1 billion decision variables in double precision
+took only 64485 seconds (~18 hours) to solve, while consuming 7,630 MB (7.6 GB)
+or RAM on a single threaded laptop CPU. It shows that the algorithm is
+computationally and memory (space) linearly efficient, and can find the optimal
+or near-optimal solution in a fraction of the time and memory that many
+conventional algorithms require. It is envisaged that this will open up new
+possibilities of real-time large-scale problems on personal laptops and
+embedded systems.
+",1,0,0,0,0,0
+20957,Recoverable Energy of Dissipative Electromagnetic Systems,"  Ambiguities in the definition of stored energy within distributed or
+radiating electromagnetic systems motivate the discussion of the well-defined
+concept of recoverable energy. This concept is commonly overlooked by the
+community and the purpose of this communication is to recall its existence and
+to discuss its relationship to fractional bandwidth. Using a rational function
+approximation of a system's input impedance, the recoverable energy of lumped
+and radiating systems is calculated in closed form and is related to stored
+energy and fractional bandwidth. Lumped circuits are also used to demonstrate
+the relationship between recoverable energy and the energy stored within
+equivalent circuits produced by the minimum phase-shift Darlington's synthesis
+procedure.
+",0,1,0,0,0,0
+20958,Elliptic Hall algebra on $\mathbb{F}_1$,"  We construct Hall algebra of elliptic curve over $\mathbb{F}_1$ using the
+theory of monoidal scheme due to Deitmar and the theory of Hall algebra for
+monoidal representations due to Szczesny. The resulting algebra is shown to be
+a specialization of elliptic Hall algebra studied by Burban and Schiffmann.
+Thus our algebra is isomorphic to the skein algebra for torus by the recent
+work of Morton and Samuelson.
+",0,0,1,0,0,0
+20959,Approximate Bayesian inference with queueing networks and coupled jump processes,"  Queueing networks are systems of theoretical interest that give rise to
+complex families of stochastic processes, and find widespread use in the
+performance evaluation of interconnected resources. Yet, despite their
+importance within applications, and in comparison to their counterpart
+stochastic models in genetics or mathematical biology, there exist few relevant
+approaches for transient inference and uncertainty quantification tasks in
+these systems. This is a consequence of strong computational impediments and
+distinctive properties of the Markov jump processes induced by queueing
+networks. In this paper, we offer a comprehensive overview of the inferential
+challenge and its comparison to analogue tasks within related mathematical
+domains. We then discuss a model augmentation over an approximating network
+system, and present a flexible and scalable variational Bayesian framework,
+which is targeted at general-form open and closed queueing systems, with varied
+service disciplines and priorities. The inferential procedure is finally
+validated in a couple of uncertainty quantification tasks for network service
+rates.
+",1,0,0,1,0,0
+20961,A New Tracking Algorithm for Multiple Colloidal Particles Close to Contact,"  In this paper, we propose a new algorithm based on radial symmetry center
+method to track colloidal particles close to contact, where the optical images
+of the particles start to overlap in digital video microscopy. This overlapping
+effect is important to observe the pair interaction potential in colloidal
+studies and it appears as additional interaction in the measurement of the
+interaction with conventional tracking analysis. The proposed algorithm in this
+work is simple, fast and applicable for not only two particles but also three
+and more particles without any modification. The algorithm uses gradient
+vectors of the particle intensity distribution, which allows us to use a part
+of the symmetric intensity distribution in the calculation of the actual
+particle position. In this study, simulations are performed to see the
+performance of the proposed algorithm for two and three particles, where the
+simulation images are generated by using fitted curve to experimental particle
+image for different sized particles. As a result, the algorithm yields the
+maximum error smaller than 2 nm for 5.53 {\mu}m silica particles in contact
+condition.
+",0,1,0,0,0,0
+20962,Critical Percolation Without Fine Tuning on the Surface of a Topological Superconductor,"  We present numerical evidence that most two-dimensional surface states of a
+bulk topological superconductor (TSC) sit at an integer quantum Hall plateau
+transition. We study TSC surface states in class CI with quenched disorder.
+Low-energy (finite-energy) surface states were expected to be critically
+delocalized (Anderson localized). We confirm the low-energy picture, but find
+instead that finite-energy states are also delocalized, with universal
+statistics that are independent of the TSC winding number, and consistent with
+the spin quantum Hall plateau transition (percolation).
+",0,1,0,0,0,0
+20963,Low-luminosity stellar wind accretion onto neutron stars in HMXBs,"  Features and applications of quasi-spherical settling accretion onto rotating
+magnetized neutron stars in high-mass X-ray binaries are discussed. The
+settling accretion occurs in wind-fed HMXBs when the plasma cooling time is
+longer than the free-fall time from the gravitational capture radius, which can
+take place in low-luminosity HMXBs with $L_x\lesssim 4\times 10^{36}$ erg/s. We
+briefly review the implications of the settling accretion, focusing on the SFXT
+phenomenon, which can be related to instability of the quasi-spherical
+convective shell above the neutron star magnetosphere due to magnetic
+reconnection from fast temporarily magnetized winds from OB-supergiant. If a
+young neutron star in a wind-fed HMXB is rapidly rotating, the propeller regime
+in a quasi-spherical hot shell occurs. We show that X-ray spectral and temporal
+properties of enigmatic $\gamma$ Cas Be-stars are consistent with failed
+settling accretion regime onto a propelling neutron star. The subsequent
+evolutionary stage of $\gamma$ Cas and its analogs should be the X Per-type
+binaries comprising low-luminosity slowly rotating X-ray pulsars.
+",0,1,0,0,0,0
+20966,One-sample aggregate data meta-analysis of medians,"  An aggregate data meta-analysis is a statistical method that pools the
+summary statistics of several selected studies to estimate the outcome of
+interest. When considering a continuous outcome, typically each study must
+report the same measure of the outcome variable and its spread (e.g., the
+sample mean and its standard error). However, some studies may instead report
+the median along with various measures of spread. Recently, the task of
+incorporating medians in meta-analysis has been achieved by estimating the
+sample mean and its standard error from each study that reports a median in
+order to meta-analyze the means. In this paper, we propose two alternative
+approaches to meta-analyze data that instead rely on medians. We systematically
+compare these approaches via simulation study to each other and to methods that
+transform the study-specific medians and spread into sample means and their
+standard errors. We demonstrate that the proposed median-based approaches
+perform better than the transformation-based approaches, especially when
+applied to skewed data and data with high inter-study variance. In addition,
+when meta-analyzing data that consists of medians, we show that the
+median-based approaches perform considerably better than or comparably to the
+best-case scenario for a transformation approach: conducting a meta-analysis
+using the actual sample mean and standard error of the mean of each study.
+Finally, we illustrate these approaches in a meta-analysis of patient delay in
+tuberculosis diagnosis.
+",0,0,0,1,0,0
+20967,QuickCast: Fast and Efficient Inter-Datacenter Transfers using Forwarding Tree Cohorts,"  Large inter-datacenter transfers are crucial for cloud service efficiency and
+are increasingly used by organizations that have dedicated wide area networks
+between datacenters. A recent work uses multicast forwarding trees to reduce
+the bandwidth needs and improve completion times of point-to-multipoint
+transfers. Using a single forwarding tree per transfer, however, leads to poor
+performance because the slowest receiver dictates the completion time for all
+receivers. Using multiple forwarding trees per transfer alleviates this
+concern--the average receiver could finish early; however, if done naively,
+bandwidth usage would also increase and it is apriori unclear how best to
+partition receivers, how to construct the multiple trees and how to determine
+the rate and schedule of flows on these trees. This paper presents QuickCast, a
+first solution to these problems. Using simulations on real-world network
+topologies, we see that QuickCast can speed up the average receiver's
+completion time by as much as $10\times$ while only using $1.04\times$ more
+bandwidth; further, the completion time for all receivers also improves by as
+much as $1.6\times$ faster at high loads.
+",1,0,0,0,0,0
+20969,Uniform diamond coatings on WC-Co hard alloy cutting inserts deposited by a microwave plasma CVD,"  Polycrystalline diamond coatings have been grown on cemented carbide
+substrates with different aspect ratios by a microwave plasma CVD in
+methane-hydrogen gas mixtures. To protect the edges of the substrates from
+non-uniform heating due to the plasma edge effect, a special plateholder with
+pockets for group growth has been used. The difference in heights of the
+substrates and plateholder, and its influence on the diamond film mean grain
+size, growth rate, phase composition and stress was investigated. The substrate
+temperature range, within which uniform diamond films are produced with good
+adhesion, is determined. The diamond-coated cutting inserts produced at
+optimized process exhibited a reduction of cutting force and wear resistance by
+a factor of two, and cutting efficiency increase by 4.3 times upon turning A390
+Al-Si alloy as compared to performance of uncoated tools.
+",0,1,0,0,0,0
+20970,Analysing Soccer Games with Clustering and Conceptors,"  We present a new approach for identifying situations and behaviours, which we
+call ""moves"", from soccer games in the 2D simulation league. Being able to
+identify key situations and behaviours are useful capabilities for analysing
+soccer matches, anticipating opponent behaviours to aid selection of
+appropriate tactics, and also as a prerequisite for automatic learning of
+behaviours and policies. To support a wide set of strategies, our goal is to
+identify situations from data, in an unsupervised way without making use of
+pre-defined soccer specific concepts such as ""pass"" or ""dribble"". The recurrent
+neural networks we use in our approach act as a high-dimensional projection of
+the recent history of a situation on the field. Similar situations, i.e., with
+similar histories, are found by clustering of network states. The same networks
+are also used to learn so-called conceptors, that are lower-dimensional
+manifolds that describe trajectories through a high-dimensional state space
+that enable situation-specific predictions from the same neural network. With
+the proposed approach, we can segment games into sequences of situations that
+are learnt in an unsupervised way, and learn conceptors that are useful for the
+prediction of the near future of the respective situation.
+",1,0,0,0,0,0
